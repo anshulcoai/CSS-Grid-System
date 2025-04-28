@@ -1,0 +1,17 @@
+body{
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.animals{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 3px;
+    background-color: darkgoldenrod;
+}
+
+.animals div{
+    border: 1px solid blue;
+    text-align: center;
+}
+
